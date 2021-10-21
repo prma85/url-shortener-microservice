@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Inter UI Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Inter UI Medium'), url('../fonts/Inter-UI-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Inter UI Regular'), url('../fonts/Inter-UI-Regular.woff') format('woff');
+}
+
+#page_404 {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 490px;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  display: block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#page_404 img {
+  width: 100%;
+  max-width: 423px;
+}
+
+#page_404 h1 {
+  width: 100%;
+  color: rgb(28, 43, 51);
+  font-size: 24px;
+  font-family: 'Inter UI Medium', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+#page_404 p {
+  width: 100%;
+  color: rgb(104, 110, 116);
+  font-size: 16px;
+  font-family: 'Inter UI Regular', sans-serif;
+  font-weight: normal;
+  line-height: 22px;
+}
